@@ -2,7 +2,7 @@
 
 const Item = styled.li`
     font-weight: bold;
-    transition: opacity 0.15s;
+    transition: color 0.15s;
     color:#333;
     &:hover {
         transition: color 0.3s;
