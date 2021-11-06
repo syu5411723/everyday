@@ -7,6 +7,7 @@ const Wrapper = styled.div`
 const List = styled.ul`
     list-style:none;
     display:flex;
+    width:100%;
 `
 export const HeaderNav = () => {
     return (

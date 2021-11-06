@@ -1,12 +1,13 @@
-import { Header } from '../components/organisms/header/Header'
+import { Layout } from '../components/design/Layout'
+import { Home } from '../components/pages/Home'
 
 
 
 const index = () => {
   return (
     <>
-      <Header />
-    </>
+      <Home />
+      </>
   )
 }
 
