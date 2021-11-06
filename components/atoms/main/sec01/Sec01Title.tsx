@@ -10,7 +10,7 @@ const Title = styled.h2`
 export const Sec01Title = () => {
     return (
         <Container>
-            <Title></Title>
+            <Title>New Discoverries</Title>
         </Container>
     )
 }
