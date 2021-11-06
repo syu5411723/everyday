@@ -1,10 +1,10 @@
 ﻿import React from 'react'
-import { Header } from '../organisms/header/Header'
+import { Sec01 } from '../organisms/main/Sec01'
 
-export const home = () => {
+export const Home = () => {
     return (
         <>
-            <Header />
+            <Sec01 />1
         </>
     )
 }
