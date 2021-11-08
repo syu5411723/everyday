@@ -1,6 +1,7 @@
 ﻿import styled from "styled-components"
 import { Sec01Content } from "../../atoms/main/sec01/Sec01Content"
 import { Sec01Title } from "../../atoms/main/sec01/Sec01Title"
+import { Button } from "../../design/Button"
 
 const Container = styled.div`
     width:100%;
@@ -26,10 +27,12 @@ export const Sec01 = () => {
                 <RightInner>
                     <Sec01Title />
                     <Sec01Content />
-                </RightInner>x
+                    <Button />
+                </RightInner>
             </RightWrapper>
             <LeftWrapper>
             </LeftWrapper>
+
         </Container>
     )
 }
