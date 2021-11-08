@@ -1,7 +1,7 @@
 ﻿import styled from "styled-components"
 
 const Wrapper = styled.div`
-
+    margin:20px 0 40px;
 `
 const Text = styled.p`
 `
