@@ -29,6 +29,6 @@ export const Sec02 = () => {
     return (
         <>
             <Sec02Card />
-         </>
+        </>
     )
 }
