@@ -27,7 +27,7 @@ export const Sec01 = () => {
                 <RightInner>
                     <Sec01Title />
                     <Sec01Content />
-                    <Button />
+                    <Button text="Shop New" />
                 </RightInner>
             </RightWrapper>
             <LeftWrapper>
