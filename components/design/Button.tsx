@@ -1,4 +1,9 @@
 ﻿import styled from "styled-components"
+import {VFC} from "react"
+
+type Props = {
+    text:string
+}
 
 const Wrapper = styled.div`
     display:flex;
@@ -16,10 +21,10 @@ const Text = styled.p`
     font-size: 18px;
 `
 
-export const Button = () => {
+export const Button:VFC<Props> = ({text}) => {
     return (
         <Wrapper>
-            <Text>Shop New</Text>
+            <Text>{text}</Text>
         </Wrapper>
     )
 }
