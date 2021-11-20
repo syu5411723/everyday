@@ -21,3 +21,4 @@ export const Sec07LIst = () => {
         </Wrapper>
     )
 }
+
