@@ -17,7 +17,7 @@ export const FooterLeft = () => {
         <Wrapper>
             <Inner>
                 <FooterAnnounce />
-                <FooterRightItem title="" Data={data} />
+                <FooterRightItem title="1" Data={data} />
             </Inner>
         </Wrapper>
     )
