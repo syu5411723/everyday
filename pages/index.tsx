@@ -22,7 +22,7 @@ const index = ({ data }) => {
       <Head>
         <title></title>
       </Head>
-      <DataContext.Provider value={{data}} >
+      <DataContext.Provider value={data} >
         <Home />
       </DataContext.Provider>
     </>
