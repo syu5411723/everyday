@@ -7,7 +7,28 @@ type ContextProps = {
   data: any
 }
 
-const Data = [{}]
+const Data = [
+  {
+    text1: "",
+    text2: "",
+  },
+  {
+    text1: "",
+    text2: "",
+    text3: "",
+    text4: "",
+  },
+  {
+    text1: "",
+    text2: "",
+    text3: "",
+    text4: "",
+  },
+  {
+    text1: "",
+    text2: "",
+  },
+]
 
 export const getStaticProps = async () => {
   const data = await Data
