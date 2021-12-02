@@ -26,7 +26,8 @@ export const FooterLeft = () => {
                 <FooterRightItem title="ニュース" Data={data[0]} />
                 <FooterRightItem title="店舗案内" Data={data[1]} />
                 <FooterRightItem title="注目カテゴリー" Data={data[2]} />
-                <FooterRightItem title="MoNAについて" Data={data[3]} />
+                <FooterRightItem title="MoNAについて" Data={data[3
+                ]} />
             </Inner>
         </Wrapper>
     )
