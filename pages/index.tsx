@@ -7,7 +7,7 @@ type ContextProps = {
   data: any
 }
 
-const Data = [
+export const Data = [
   {
     text1: "News&キャンペーン",
     text2: "ストアイベント",
