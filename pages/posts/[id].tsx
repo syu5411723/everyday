@@ -1,6 +1,12 @@
-﻿import React from 'react'
+﻿import { createContext } from 'react'
 import Head from 'next/dist/shared/lib/head'
 import { Data } from '../index'
+import Detail from '../../components/pages/Detail'
+import { formatDiagnosticsWithColorAndContext } from 'typescript'
+
+type ContextProps = {
+    data: any
+}
 
 export const getStaticPaths = async () => {
     const paths = Data.map(data => data)
@@ -13,12 +19,17 @@ export const getStaticProps = async () => {
 }
 
 
+export const DetailContext = createContext({} as ContextProps)
+
 const Post = ({ data }) => {
     return (
         <>
             <Head>
                 <title></title>
             </Head>
+            <DetailContext.Provider value={data}>
+                <Detail />
+            </DetailContext.Provider>
         </>
 
     )
