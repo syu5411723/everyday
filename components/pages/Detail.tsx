@@ -1,6 +1,8 @@
-﻿import React from 'react'
+﻿import { DetailContext } from "../../pages/posts/[id]"
+import { useContext } from "react"
 
 const Detail = () => {
+    const { data } = useContext(DetailContext)
     return (
         <>
             

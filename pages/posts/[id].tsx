@@ -2,7 +2,6 @@
 import Head from 'next/dist/shared/lib/head'
 import { Data } from '../index'
 import Detail from '../../components/pages/Detail'
-import { formatDiagnosticsWithColorAndContext } from 'typescript'
 
 type ContextProps = {
     data: any
@@ -31,7 +30,6 @@ const Post = ({ data }) => {
                 <Detail />
             </DetailContext.Provider>
         </>
-
     )
 }
 
