@@ -5,7 +5,7 @@ const Detail = () => {
     const { data } = useContext(DetailContext)
     return (
         <>
-            
+        
         </>
     )
 }
