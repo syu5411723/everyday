@@ -5,7 +5,7 @@ type Props = {
     item: string
 }
 const Item = styled.li`
-
+    
 `
 
 
