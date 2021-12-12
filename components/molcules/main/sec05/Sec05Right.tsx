@@ -1,5 +1,5 @@
 ﻿import React from 'react'
-import { Sec05Img } from '../../../atoms/main/sec05/ Sec05Img'
+import { Sec05Img } from '../../../atoms/main/main/sec05/ Sec05Img'
 
 export const Sec05Right = () => {
     return (

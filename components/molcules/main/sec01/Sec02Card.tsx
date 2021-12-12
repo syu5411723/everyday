@@ -1,4 +1,4 @@
-﻿import { Sec02Img } from "../../../atoms/main/sec02/Sec02Img"
+﻿import { Sec02Img } from "../../../atoms/main/main/sec02/Sec02Img"
 
 
 export const Sec02Card = () => {

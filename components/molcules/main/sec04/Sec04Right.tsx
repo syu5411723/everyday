@@ -1,6 +1,6 @@
 ﻿import styled from "styled-components"
-import { Sec04Date } from "../../../atoms/main/sec04/Sec04Date"
-import { Sec04Img } from "../../../atoms/main/sec04/Sec04Img"
+import { Sec04Date } from "../../../atoms/main/main/sec04/Sec04Date"
+import { Sec04Img } from "../../../atoms/main/main/sec04/Sec04Img"
 
 const Wrapper = styled.div`
 

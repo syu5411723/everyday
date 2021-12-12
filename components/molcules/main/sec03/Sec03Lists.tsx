@@ -1,5 +1,5 @@
 ﻿import styled from "styled-components"
-import { Sec03Item } from "../../../atoms/main/sec03/Sec03Item"
+import { Sec03Item } from "../../../atoms/main/main/sec03/Sec03Item"
 
 const Wrapper = styled.div``
 

@@ -1,6 +1,6 @@
 ﻿import styled from "styled-components"
-import { Sec01Content } from "../../atoms/main/sec01/Sec01Content"
-import { Sec01Title } from "../../atoms/main/sec01/Sec01Title"
+import { Sec01Content } from "../../atoms/main/main/sec01/Sec01Content"
+import { Sec01Title } from "../../atoms/main/main/sec01/Sec01Title"
 import { Button } from "../../design/Button"
 
 const Container = styled.div`

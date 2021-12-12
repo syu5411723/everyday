@@ -1,5 +1,5 @@
 import { Layout } from '../components/design/Layout'
-import { Home } from '../components/pages/Home'
+import { Main } from '../components/pages/Main'
 import { createContext } from "react"
 import Head from "next/head"
 
@@ -44,7 +44,7 @@ const index = ({ data }) => {
         <title></title>
       </Head>
       <DataContext.Provider value={data} >
-        <Home />
+        <Main />
       </DataContext.Provider>
     </>
   )
