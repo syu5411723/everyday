@@ -1,5 +1,5 @@
 ﻿import styled from "styled-components"
-import { Sec04Head } from "../../../atoms/main/sec04/Sec04Head"
+import { Sec04Head } from "../../../atoms/main/main/sec04/Sec04Head"
 import { Button } from "../../../design/Button"
 
 const Wrapper = styled.div`

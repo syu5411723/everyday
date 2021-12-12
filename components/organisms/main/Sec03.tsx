@@ -1,5 +1,5 @@
 ﻿import styled from "styled-components"
-import { Sec03Title } from "../../atoms/main/sec03/Sec03Title"
+import { Sec03Title } from "../../atoms/main/main/sec03/Sec03Title"
 import { Button } from "../../design/Button"
 import { Sec03Lists } from "../../molcules/main/sec03/Sec03Lists"
 
