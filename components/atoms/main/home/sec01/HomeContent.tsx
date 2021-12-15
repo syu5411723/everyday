@@ -5,7 +5,6 @@ export const HomeContent = () => {
         <div>
             
             
-            
         </div>
     )
 }
