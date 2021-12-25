@@ -4,7 +4,7 @@ const wrapper = styled.div`
 `
 
 type Props = {
-    
+    text: string
 }
 
 export const HomeContent = () => {
