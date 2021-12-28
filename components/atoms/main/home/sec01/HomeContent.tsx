@@ -18,12 +18,13 @@ const ContentData = [
         text:"",
     },
 ]
+const data = ContentData.map(t => t.text)
 
 
 export const HomeContent:VFC<Props>= ({text}) => {
     return (
         <div>
-
+                {data}
         </div>
     )
 }
