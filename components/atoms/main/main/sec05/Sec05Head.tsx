@@ -12,6 +12,7 @@ const Content = styled.p``
 export const Sec05Head = () => {
     return (
         <Wrapper>
+            
             <Head>Discover what sets</Head>
             <Head>MoMA Design</Head>
             <Head>Store apart</Head>
