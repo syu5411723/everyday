@@ -7,7 +7,9 @@ const Head = styled.h2`
     margin-bottom: 30px;
 `
 const SubHead = styled.h3``
-const Content = styled.p``
+const Content = styled.p`
+
+`
 
 export const Sec05Head = () => {
     return (
